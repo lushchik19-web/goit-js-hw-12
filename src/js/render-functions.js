@@ -19,10 +19,10 @@ export function createGallery(images) {
       <a href="${image.largeImageURL}">
         <img src="${image.webformatURL}" alt="${image.tags}" width="360" height="300"/>
       </a>
-      <p>${image.likes}</p>
-      <p>${image.views}</p>
-      <p>${image.comments}</p>
-      <p>${image.downloads}</p>
+      <p>Likes ${image.likes}</p>
+      <p>Views ${image.views}</p>
+      <p>Comments ${image.comments}</p>
+      <p>Downloads ${image.downloads}</p>
     </li>`;
     })
     .join('');
